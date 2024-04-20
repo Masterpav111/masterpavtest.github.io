@@ -1,0 +1,116 @@
+* {
+  scroll-behavior: smooth;
+}
+html body {
+  background-color: #121212;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif, "Siemreap";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.siemreap-regular {
+  font-family: "Siemreap", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#logo-head {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo-full {
+  width: 100px;
+}
+#vip-logo {
+  width: 20px;
+}
+input[type="search"] {
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 10px;
+  border: none;
+  outline: none;
+  transition: border-color 0.3s;
+  width: 150px;
+  color: white;
+  padding: 3px;
+  background-color: #262522;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+#head-video-container {
+  margin-top: 0px;
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head-video {
+  width: 100%;
+}
+#telegram-button {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: none;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  top: 143px;
+  left: 10px;
+  opacity: 85%;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 16 px;
+  position: absolute;
+}
+#telegram-button:hover {
+  opacity: 100%;
+}
+.main {
+  margin-top: 10px;
+}
+.contentr1 {
+  display: flex;
+}
+.poster-container {
+  display: grid;
+  justify-content: center;
+  height: 250px;
+  width: 150px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.poster-design {
+  height: 200px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
